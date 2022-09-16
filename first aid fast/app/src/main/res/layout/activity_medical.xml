@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accident">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Button1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/custom_button"
+                android:text="WHEEZING"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                android:textSize="24dp"
+                tools:ignore="MissingConstraints" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:id="@+id/Button2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="CHOKE"
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:id="@+id/Button3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="CROUP"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:id="@+id/Button4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="DELIVERY"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="DIABETES"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="HEART ATTACK"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="HIGH BP"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="HYPOTHERMIA"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="LOW BP"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="NOSE BLEED"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="SEIZURE"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="STROKE"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="UNCONSCIOUS"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="CARDIAC ARREST"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:background="@drawable/custom_button"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

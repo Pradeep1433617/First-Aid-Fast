@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.clgproject">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Clgproject"
+        tools:targetApi="31">
+
+            <activity
+                android:name=".croup"
+                android:exported="false" />
+            <activity
+                android:name=".choke"
+                android:exported="false" />
+            <activity
+                android:name=".weezing"
+                android:exported="false" />
+            <activity
+                android:name=".snake"
+                android:exported="false" />
+            <activity
+                android:name=".scor"
+                android:exported="false" />
+            <activity
+                android:name=".dog"
+                android:exported="false" />
+            <activity
+                android:name=".centipede"
+                android:exported="false" />
+            <activity
+                android:name=".bee"
+                android:exported="false" />
+            <activity
+                android:name=".bedbug"
+                android:exported="false" />
+            <activity
+                android:name=".strings"
+                android:exported="false" />
+            <activity
+                android:name=".otherapps"
+                android:exported="false" />
+            <activity
+                android:name=".helpline"
+                android:exported="false" />
+            <activity
+                android:name=".disaster"
+                android:exported="false" />
+            <activity
+                android:name=".first"
+                android:exported="false" />
+            <activity
+                android:name=".nearby"
+                android:exported="false" />
+            <activity
+                android:name=".accident"
+                android:exported="false" />
+            <activity
+                android:name=".bites"
+                android:exported="false" />
+            <activity
+                android:name=".medical"
+                android:exported="false" />
+            <activity
+                android:name=".splash"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+            <activity
+                android:name=".MainActivity"
+                android:exported="true" />
+
+
+    </application>
+
+</manifest>
